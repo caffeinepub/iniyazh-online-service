@@ -1,0 +1,16 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-11T06:32:14.715Z",
+  "summary": "REQ-10 appears implemented: `businessInfo` now includes `cscId: \"666236760012\"`, and both the Site Footer and Contact page render a labeled \"CSC ID\" line using `businessInfo.cscId`.",
+  "missing_requirements": [],
+  "hallucinated_features": [],
+  "confidence": 0.86,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/components/SiteFooter.tsx",
+    "frontend/src/content/business.ts",
+    "frontend/src/pages/ContactPage.tsx",
+    "project_state.json"
+  ]
+}

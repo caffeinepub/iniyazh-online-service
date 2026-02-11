@@ -1,0 +1,21 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup for 4 pages (Home, About, Services, Contact) wrapped in a shared SiteLayout component.",
+  "frontend/src/pages/HomePage.tsx": "Home page with hero section, feature cards highlighting CSC benefits, and call-to-action sections with blue/white/orange theme.",
+  "frontend/src/pages/AboutPage.tsx": "About page featuring business introduction, VLE information, and core values displayed in cards with professional government-style design.",
+  "frontend/src/pages/ServicesPage.tsx": "Services page displaying a responsive grid of CSC service cards with icons, titles, and descriptions.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with business details cards (including CSC ID), contact form, and embedded Google Maps showing the CSC location.",
+  "frontend/src/components/SiteLayout.tsx": "Shared layout wrapper component that renders header, footer, and WhatsApp floating button on all pages.",
+  "frontend/src/components/SiteHeader.tsx": "Responsive navigation header with logo, menu links, mobile hamburger menu, and phone CTA button.",
+  "frontend/src/components/SiteFooter.tsx": "Professional footer with logo, quick links, contact information (including CSC ID), and Caffeine.ai attribution with UTM tracking.",
+  "frontend/src/components/WhatsAppFloatingButton.tsx": "Fixed floating WhatsApp button in bottom-right corner linking to business WhatsApp number with hover tooltip.",
+  "frontend/src/components/ContactForm.tsx": "Contact form with validation, loading states, success/error alerts, and backend integration for form submission.",
+  "frontend/src/components/MapEmbed.tsx": "Responsive Google Maps iframe embed component showing the CSC location without requiring API keys.",
+  "frontend/src/components/ServiceCard.tsx": "Reusable card component for displaying individual services with icon, title, and description.",
+  "frontend/src/components/ServiceIcon.tsx": "Icon wrapper component that maps icon identifiers to Lucide React icons for consistent service display.",
+  "frontend/src/content/business.ts": "Centralized business information constants including name, owner, phone, address, WhatsApp, and CSC ID for consistent reuse across components.",
+  "frontend/src/content/services.ts": "Service data array with 12 common CSC services including titles, descriptions, and icon identifiers.",
+  "frontend/src/hooks/useQueries.ts": "React Query hook for submitting contact form data to the backend with mutation and cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining blue/white government theme with orange accents from the logo.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom blue and orange color scales matching the CSC brand and logo colors.",
+  "frontend/index.html": "HTML entry point with updated title, meta description, and favicon link to the generated logo asset."
+}

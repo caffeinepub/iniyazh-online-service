@@ -1,0 +1,38 @@
+{
+  "kind": "build_request",
+  "title": "Add CSC ID to site content",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Add CSC ID \"666236760012\" to the centralized business content model and render it in the website’s business information sections (at minimum: Contact page and site footer) using English labels.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "add my csc id : 666236760012"
+        ]
+      },
+      "acceptanceCriteria": [
+        "`frontend/src/content/business.ts` includes a new `cscId` field with the value \"666236760012\".",
+        "The Site Footer shows a clearly labeled line \"CSC ID: 666236760012\" in the Contact Info area.",
+        "The Contact page shows a clearly labeled line \"CSC ID: 666236760012\" within the contact information cards/section.",
+        "No existing business identity fields (name/owner/phone/address/WhatsApp) are removed or altered."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend files under `frontend/src/components/ui` must not be edited; only compose them.",
+    "Do not edit any paths listed in `frontend.immutablePaths` in SYSTEM_CONTEXT."
+  ],
+  "nonGoals": [
+    "No backend changes or persistence are required for adding the CSC ID.",
+    "No changes to Internet Identity/authentication or contact-form submission behavior."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

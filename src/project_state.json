@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Professional, mobile-responsive website for the Common Service Centre 'Iniyazh Online Service' with branded (logo-matched) blue/white government-style design and core contact/service sections.",
+  "architectural_notes": [
+    "Mobile-responsive layout required.",
+    "Brand styling: blue/white professional government-style theme; match colors to uploaded logo.",
+    "Use uploaded logo asset in header, favicon, and footer."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-mobile-responsive-multi-page-website-with-the-pages-home-about-us-services-and-contact-with-consistent-header-footer-navigation-across-all-pages",
+      "title": "Create a mobile-responsive multi-page website with the pages: Home, About Us, Services, and Contact, with consistent header/footer navigation across all pages.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-the-uploaded-logo-2025-08-25-webp-in-the-header-top-left-footer-and-as-the-site-favicon",
+      "title": "Apply the uploaded logo (2025-08-25.webp) in the header (top-left), footer, and as the site favicon.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-clean-professional-blue-and-white-government-style-theme-that-also-harmonizes-with-the-logo-colors-use-logo-accent-colors-where-appropriate-and-apply-it-consistently-across-all-pages",
+      "title": "Implement a clean, professional blue-and-white government-style theme that also harmonizes with the logo colors (use logo accent colors where appropriate), and apply it consistently across all pages.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-business-identity-content-throughout-the-site-using-english-text-business-name-iniyazh-online-service-owner-vle-dinesh-dhashinamoorthy-contact-number-9952666599-address-3-4-north-street-narasingamangalam-valangaiman-tk-thiruvarur-district",
+      "title": "Add the business identity content throughout the site using English text: Business Name: \"Iniyazh Online Service\"; Owner/VLE: \"Dinesh Dhashinamoorthy\"; Contact Number: \"9952666599\"; Address: \"3/4 North Street, Narasingamangalam, Valangaiman TK, Thiruvarur District\".",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-floating-whatsapp-button-on-all-pages-that-opens-a-whatsapp-chat-to-9952666599-using-an-internationalized-wa-me-link",
+      "title": "Add a floating WhatsApp button on all pages that opens a WhatsApp chat to 9952666599 using an internationalized wa.me link.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-page-section-that-lists-common-csc-style-services-and-displays-a-clear-icon-for-each-service-item",
+      "title": "Build a Services page/section that lists common CSC-style services and displays a clear icon for each service item.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-contact-page-contact-form-with-fields-for-name-phone-email-optional-subject-and-message-including-client-side-validation-and-a-clear-success-failure-state-after-submission",
+      "title": "Add a Contact page contact form with fields for Name, Phone, Email (optional), Subject, and Message, including client-side validation and a clear success/failure state after submission.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-google-map-section-on-the-contact-page-that-shows-the-business-location-address-using-an-embedded-google-maps-iframe-for-3-4-north-street-narasingamangalam-valangaiman-tk-thiruvarur-district",
+      "title": "Add a Google Map section on the Contact page that shows the business location/address using an embedded Google Maps iframe for: \"3/4 North Street, Narasingamangalam, Valangaiman TK, Thiruvarur District\".",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-csc-id-666236760012-to-the-centralized-business-content-model-and-render-it-in-the-website-s-business-information-sections-at-minimum-contact-page-and-site-footer-using-english-labels",
+      "title": "Add CSC ID \"666236760012\" to the centralized business content model and render it in the website’s business information sections (at minimum: Contact page and site footer) using English labels.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create 4-page website: Home, About Us, Services, Contact",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Apply uploaded logo to header (top-left), favicon, and footer",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Design styling: clean blue/white government-style theme matching logo colors; mobile responsive",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Add WhatsApp floating button linking to 9952666599",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Add contact form on Contact page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add Google Map section for business address",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Add service icons for Services section/page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Include business details (name, owner/VLE, contact number, address) in appropriate sections (header/footer/contact)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Implement backend storage for contact form submissions in the single Motoko actor, including a method to create a submission and a method to list submissions (for future admin use).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-17",
+      "summary": "Add CSC ID \"666236760012\" to the website content (appropriate section such as header/footer/contact/about).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Iniyazh Online Service",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

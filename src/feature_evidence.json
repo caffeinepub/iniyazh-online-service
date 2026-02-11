@@ -1,0 +1,26 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-csc-id-666236760012-to-the-centralized-business-content-model-and-render-it-in-the-website-s-business-information-sections-at-minimum-contact-page-and-site-footer-using-english-labels",
+      "featureTitle": "Add CSC ID \"666236760012\" to the centralized business content model and render it in the website’s business information sections (at minimum: Contact page and site footer) using English labels.",
+      "files": [
+        "frontend/src/components/SiteFooter.tsx",
+        "frontend/src/content/business.ts",
+        "frontend/src/pages/ContactPage.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
